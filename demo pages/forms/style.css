@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: Verdana;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url("vaccs.jpg");
+    background-size: 1080px;
+
+}
+
+.container {
+    width: 300px;
+    background: rgb(218, 174, 231);
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px 60px 500px 35px;
+
+
+}
+
+.container header{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 0 30px 15px;
+
+}
+
+
+.container .form-outer{
+    width: 100%;
+
+}
+
+.form-outer form{
+    display: flex;
+    width: 400%;
+
+}
+
+.form-outer form .page{
+    width: 25%;
+
+}
+
+.form-outer form .page .title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.form-outer form .page .field{
+    height: 45px;
+    width: 330px;
+    margin: 45px 0;
+    position: relative;
+
+
+}
+
+.form-outer form .page .field .label{
+    position: absolute;
+    top: -20px;
+    font-weight: 500;
+}
+
+.form-outer form .page .field input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(93, 212, 233);
+    border-radius: 5px;
+
+}
+
+select{
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(93, 212, 233);
+    border-radius: 5px;
+}
+
+.form-outer form .page .field button{
+    width: 100%;
+    height: calc(100% + 5px);
+    margin-top: -20px;
+    border: 1px solid rgb(93, 212, 233);
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.loader-container{
+    position: fixed;
+    top:0; left:0;
+    z-index: 10000;
+    background:rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width:100%;
+  }
+  
+  .loader-container.fade-out{
+    top:-120%;
+  }
