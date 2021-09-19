@@ -261,6 +261,76 @@ header .navbar a:hover{
   flex-wrap: wrap;
   margin-bottom: 150px;
 }
+.forms{
+  background-color:rgb(224, 221, 221);
+}
+
+.forms h1{
+  color: #333;
+}
+
+.forms .row{
+  padding:2rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  background:rgb(255, 255, 255);
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  border-radius: .5rem;
+}
+
+.forms .row .image{
+  flex:1 1 30rem;
+}
+
+.forms .row .image img{
+  height:100%;
+  width:100%;
+  object-fit: cover;
+  border-radius: .5rem;
+
+}
+
+.forms .row form{
+  flex:1 1 50rem;
+  padding:1rem;
+}
+
+.forms .row form .inputBox{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.forms .row form .inputBox input, .forms .row form textarea{
+  padding:1rem;
+  margin:1rem 0;
+  font-size: 1.7rem;
+  color:#333;
+  text-transform: none;
+  border:.1rem solid rgba(0,0,0,.3);
+  border-radius: .5rem;
+  width:49%;
+}
+
+.forms .row form textarea{
+  width:100%;
+  resize: none;
+  height:15rem;
+}
+
+.forms .row form .btn{
+  background:white;
+  color: #000;
+}
+
+.forms .row form .btn:hover{
+  background:var(--green);
+  color: #fff;
+}
+.forms .opinion{
+  border-radius: 1rem;
+}
 
 .footer{
   background:#000;
@@ -388,7 +458,7 @@ header .navbar a:hover{
     font-size: 50%;
   }
 
-  .order .row form .inputBox input{
+  .forms .row form .inputBox input{
     width:100%;
   }
 
